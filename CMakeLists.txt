@@ -14,7 +14,9 @@ add_library(nlohmann_json_schema_validator
     src/json-uri.cpp
     src/json-validator.cpp
     src/json-patch.cpp
-    src/string-format-check.cpp)
+    src/string-format-check.cpp
+    src/validator-wrapper.h
+    src/validator-wrapper.cpp)
 
 target_include_directories(nlohmann_json_schema_validator
     PUBLIC
